@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd">
+<html>
+<head>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<title>Exported from Notepad++</title>
+<style type="text/css">
+span {
+	font-family: 'Courier New';
+	font-size: 10pt;
+	color: #000000;
+}
+.sc0 {
+}
+.sc1 {
+	color: #008000;
+}
+.sc2 {
+	color: #808080;
+}
+.sc3 {
+	color: #808080;
+}
+.sc4 {
+	color: #FF8000;
+}
+.sc5 {
+	font-weight: bold;
+}
+.sc6 {
+	font-weight: bold;
+	color: #000080;
+}
+.sc7 {
+}
+.sc9 {
+	color: #8000FF;
+}
+.sc13 {
+	color: #008080;
+}
+.sc16 {
+	font-weight: bold;
+	color: #008080;
+}
+</style>
+</head>
+<body>
+<div style="float: left; white-space: pre; line-height: 1; background: #FFFFFF; "><span class="sc13">&lt;#
+    </span><span class="sc16">.SYNOPSIS</span><span class="sc13">
+    Creates a complete backup of the computer prior to imaging it.
+
+    </span><span class="sc16">.DESCRIPTION</span><span class="sc13">
+    Creates a complete backup of the computer in a VHD format so that it can be mounted in Hyper-v in case of missing files.
+
+    </span><span class="sc16">.OUTPUTS</span><span class="sc13">
+    None
+
+    </span><span class="sc16">.NOTES</span><span class="sc13">
+    Version:        1.0.0
+    Author:         John Yoakum
+    Creation Date:  2019-05-15
+    Purpose/Change: Initial script development
+  
+    </span><span class="sc16">.EXAMPLE</span><span class="sc13">
+    Create-VHD.ps1
+
+#&gt;</span><span class="sc0">
+
+</span><span class="sc1"># Stores the full path to the parent directory of this powershell script</span><span class="sc0">
+</span><span class="sc1"># e.g. C:\Scripts\GoogleApps</span><span class="sc0">
+</span><span class="sc5">$ScriptPathParent</span><span class="sc0"> </span><span class="sc6">=</span><span class="sc0"> </span><span class="sc9">split-path</span><span class="sc0"> </span><span class="sc6">-</span><span class="sc7">parent</span><span class="sc0"> </span><span class="sc5">$MyInvocation</span><span class="sc6">.</span><span class="sc7">MyCommand</span><span class="sc6">.</span><span class="sc7">Definition</span><span class="sc0">
+
+</span><span class="sc1"># Path to store VHD</span><span class="sc0">
+</span><span class="sc5">$StoreLocale</span><span class="sc0"> </span><span class="sc6">=</span><span class="sc0"> </span><span class="sc3">'PathToNetworkShare'</span><span class="sc0">
+
+</span><span class="sc1"># VHD File Name</span><span class="sc0">
+</span><span class="sc5">$FileName</span><span class="sc0"> </span><span class="sc6">=</span><span class="sc0"> </span><span class="sc5">$env</span><span class="sc6">:</span><span class="sc7">COMPUTERNAME</span><span class="sc0">
+
+</span><span class="sc1"># Full Path for VHD Storage</span><span class="sc0">
+</span><span class="sc5">$FullPath</span><span class="sc0"> </span><span class="sc6">=</span><span class="sc0"> </span><span class="sc2">"$StoreLocale\$FileName.vhd"</span><span class="sc0">
+
+</span><span class="sc1"># Get the list of available drive information</span><span class="sc0">
+</span><span class="sc5">$OldDrive</span><span class="sc0"> </span><span class="sc6">=</span><span class="sc0"> </span><span class="sc9">Get-PSDrive</span><span class="sc0"> </span><span class="sc6">-</span><span class="sc7">p</span><span class="sc0"> </span><span class="sc7">FileSystem</span><span class="sc0">
+
+</span><span class="sc1"># Retrieve only those drives that have a size bigger than 20GB</span><span class="sc0">
+</span><span class="sc5">$Letters</span><span class="sc0"> </span><span class="sc6">=</span><span class="sc0"> </span><span class="sc5">$OldDrive</span><span class="sc0"> </span><span class="sc6">|</span><span class="sc0"> </span><span class="sc9">Where-Object</span><span class="sc0"> </span><span class="sc6">{</span><span class="sc5">$_</span><span class="sc6">.</span><span class="sc7">Name</span><span class="sc0"> </span><span class="sc6">-</span><span class="sc7">ne</span><span class="sc0"> </span><span class="sc2">"X"</span><span class="sc6">-</span><span class="sc7">and</span><span class="sc0"> </span><span class="sc6">((</span><span class="sc5">$_</span><span class="sc6">.</span><span class="sc7">Used</span><span class="sc6">/</span><span class="sc4">1</span><span class="sc7">gb</span><span class="sc6">)</span><span class="sc0"> </span><span class="sc6">+</span><span class="sc0"> </span><span class="sc6">(</span><span class="sc5">$_</span><span class="sc6">.</span><span class="sc7">Free</span><span class="sc6">/</span><span class="sc4">1</span><span class="sc7">gb</span><span class="sc6">))</span><span class="sc0"> </span><span class="sc6">-</span><span class="sc7">gt</span><span class="sc0"> </span><span class="sc3">'20'</span><span class="sc6">}</span><span class="sc0">
+
+</span><span class="sc1"># From the list of those drives that are bigger than 75GB, find the drive that currently has a Windows folder in the root.</span><span class="sc0">
+</span><span class="sc5">$NewDrive</span><span class="sc0"> </span><span class="sc6">=</span><span class="sc0"> </span><span class="sc5">$Letters</span><span class="sc0"> </span><span class="sc6">|</span><span class="sc0"> </span><span class="sc9">Where-Object</span><span class="sc0"> </span><span class="sc6">{(</span><span class="sc9">Test-Path</span><span class="sc0"> </span><span class="sc2">"$($_.Root)\Windows"</span><span class="sc6">)</span><span class="sc0"> </span><span class="sc6">-</span><span class="sc7">eq</span><span class="sc0"> </span><span class="sc5">$true</span><span class="sc6">}</span><span class="sc0">
+
+</span><span class="sc1"># Assign the correct drive letter to a variable that can be used to put OS on</span><span class="sc0">
+</span><span class="sc5">$DriveLetter</span><span class="sc0"> </span><span class="sc6">=</span><span class="sc0"> </span><span class="sc5">$NewDrive</span><span class="sc6">.</span><span class="sc7">Name</span><span class="sc0"> </span><span class="sc6">+</span><span class="sc0"> </span><span class="sc2">":"</span><span class="sc0">
+
+</span><span class="sc1"># Run Disk2VHD and store the VHD on a network share</span><span class="sc0">
+</span><span class="sc6">&amp;</span><span class="sc0"> </span><span class="sc5">$ScriptPathParent</span><span class="sc0">\</span><span class="sc7">disk2vhd</span><span class="sc6">.</span><span class="sc7">exe</span><span class="sc0"> </span><span class="sc5">$DriveLetter</span><span class="sc0"> </span><span class="sc5">$FullPath</span><span class="sc0"> </span><span class="sc6">-</span><span class="sc7">accepteula</span><span class="sc0"> </span><span class="sc6">|</span><span class="sc0"> </span><span class="sc9">Out-Null</span><span class="sc0">
+</span></div></body>
+</html>

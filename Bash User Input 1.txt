@@ -1,0 +1,18 @@
+#!/bin/sh
+
+#Function that generates the dialog
+usernamePrompt(){
+    # $1 = window title
+    # $2 = prompt text
+    # $3 = default answer
+    su \- "${loggedInUser}" -c osascript <<EOT
+        tell application "System Events"
+            with timeout of 8947848 seconds
+                text returned of (display dialog "$2" default answer "$3" buttons {"OK"} default button 1 with title "$1" with icon caution)
+            end timeout
+        end tell
+EOT
+}
+
+#Call the function and set the result as the variable
+username="$(usernamePrompt 'Enter Username' 'Please enter the username you would like to modfy.' 'enter username')"

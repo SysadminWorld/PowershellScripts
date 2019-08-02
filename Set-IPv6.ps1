@@ -1,0 +1,1 @@
+﻿Disable-NetAdapterBinding -name "Ethernet" -ComponentID ms_tcpip6

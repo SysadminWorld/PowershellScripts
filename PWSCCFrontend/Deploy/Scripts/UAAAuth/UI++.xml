@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UIpp Title="UAA IT Services" Icon="UI++2.ico">
+ 	<Actions>
+	<Action Type="UserAuth" Title="UAA Authentication" Domain="ua.ad.alaska.edu" MaxRetryCount="5" Group="anc_sccm_tier_1" GetGroups="True" />
+  </Actions>
+</UIpp>
+
+

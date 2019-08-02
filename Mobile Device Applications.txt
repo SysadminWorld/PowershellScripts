@@ -1,0 +1,476 @@
+<mobile_device_applications>
+  <size>59</size>
+  <mobile_device_application>
+    <id>102</id>
+    <name>Adobe Acrobat Reader</name>
+    <display_name>Adobe Acrobat Reader</display_name>
+    <bundle_id>com.adobe.Adobe-Reader</bundle_id>
+    <version>19.04.00</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>74</id>
+    <name>AiM iDesk 8</name>
+    <display_name>AiM iDesk 8</display_name>
+    <bundle_id>com.assetworks.idesk8</bundle_id>
+    <version>1.1</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>65</id>
+    <name>Alertus +</name>
+    <display_name>Alertus +</display_name>
+    <bundle_id>com.alertus.mobile-receiver</bundle_id>
+    <version>2.2.4</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>119</id>
+    <name>Blackboard</name>
+    <display_name>Blackboard</display_name>
+    <bundle_id>com.blackboard.student</bundle_id>
+    <version>4.1</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>112</id>
+    <name>Blackboard Collaborate™ Mobile</name>
+    <display_name>Blackboard Collaborate™ Mobile</display_name>
+    <bundle_id>com.bbcollaborate.Collaborate</bundle_id>
+    <version>1.2.5</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>120</id>
+    <name>Calculator Pro+ for iPad</name>
+    <display_name>Calculator Pro+ for iPad</display_name>
+    <bundle_id>com.apalonapps.calcfree</bundle_id>
+    <version>5.6</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>78</id>
+    <name>Campus Labs Collect</name>
+    <display_name>Campus Labs Collect</display_name>
+    <bundle_id>com.studentvoice.SVMobile</bundle_id>
+    <version>2.0.2</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>93</id>
+    <name>Camscanner|Document Scan & Fax</name>
+    <display_name>Camscanner|Document Scan & Fax</display_name>
+    <bundle_id>com.intsig.CamScannerLite</bundle_id>
+    <version>5.9.7</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>70</id>
+    <name>Cherwell Mobile</name>
+    <display_name>Cherwell Mobile</display_name>
+    <bundle_id>com.CherwellSoftware.iCherwell</bundle_id>
+    <version>2.0.7</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>106</id>
+    <name>Cisco AnyConnect</name>
+    <display_name>Cisco AnyConnect</display_name>
+    <bundle_id>com.cisco.anyconnect</bundle_id>
+    <version>4.7.02025</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>117</id>
+    <name>ClickAndGo</name>
+    <display_name>ClickAndGo</display_name>
+    <bundle_id>com.ClickAndGo</bundle_id>
+    <version>2.1.2</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>88</id>
+    <name>Dropbox</name>
+    <display_name>Dropbox</display_name>
+    <bundle_id>com.getdropbox.Dropbox</bundle_id>
+    <version>136.2</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>79</id>
+    <name>EduCalc Classic</name>
+    <display_name>EduCalc Classic</display_name>
+    <bundle_id>com.jockusch.calculatorfree</bundle_id>
+    <version>9.0.1</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>87</id>
+    <name>Facebook</name>
+    <display_name>Facebook</display_name>
+    <bundle_id>com.facebook.Facebook</bundle_id>
+    <version>216.0</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>98</id>
+    <name>FiRE 9.2 Operations & Maint</name>
+    <display_name>FiRE 9.2 Operations & Maint</display_name>
+    <bundle_id>com.assetworks.fire.OM-92</bundle_id>
+    <version>9.2</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>101</id>
+    <name>GarageBand - University of Alaska Anchorage</name>
+    <display_name>GarageBand - University of Alaska Anchorage</display_name>
+    <bundle_id>com.apple.mobilegarageband</bundle_id>
+    <version>2.3.7</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>110</id>
+    <name>Glogster - Multimedia Posters</name>
+    <display_name>Glogster - Multimedia Posters</display_name>
+    <bundle_id>com.glogster.GlogsterTM</bundle_id>
+    <version>1.5.1</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>67</id>
+    <name>Gmail - Email by Google</name>
+    <display_name>Gmail - Email by Google</display_name>
+    <bundle_id>com.google.Gmail</bundle_id>
+    <version>6.0.190324</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>77</id>
+    <name>Google Calendar: Time Planner</name>
+    <display_name>Google Calendar: Time Planner</display_name>
+    <bundle_id>com.google.calendar</bundle_id>
+    <version>2.88.0</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>62</id>
+    <name>Google Chrome</name>
+    <display_name>Google Chrome</display_name>
+    <bundle_id>com.google.chrome.ios</bundle_id>
+    <version>73.0.3683.68</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>96</id>
+    <name>Google Docs: Sync, Edit, Share</name>
+    <display_name>Google Docs: Sync, Edit, Share</display_name>
+    <bundle_id>com.google.Docs</bundle_id>
+    <version>1.2019.12202</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>94</id>
+    <name>Google Drive</name>
+    <display_name>Google Drive</display_name>
+    <bundle_id>com.google.Drive</bundle_id>
+    <version>4.2019.14202</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>85</id>
+    <name>Google Sheets</name>
+    <display_name>Google Sheets</display_name>
+    <bundle_id>com.google.Sheets</bundle_id>
+    <version>1.2019.12202</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>64</id>
+    <name>Google Slides</name>
+    <display_name>Google Slides</display_name>
+    <bundle_id>com.google.Slides</bundle_id>
+    <version>1.2019.12202</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>83</id>
+    <name>Hangouts</name>
+    <display_name>Hangouts</display_name>
+    <bundle_id>com.google.hangouts</bundle_id>
+    <version>26.0.0</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>72</id>
+    <name>iGVE</name>
+    <display_name>iGVE</display_name>
+    <bundle_id>com.extron.igve</bundle_id>
+    <version>2.4.0</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>71</id>
+    <name>iMovie</name>
+    <display_name>iMovie</display_name>
+    <bundle_id>com.apple.iMovie</bundle_id>
+    <version>2.2.6</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>107</id>
+    <name>Jamf Self Service</name>
+    <display_name>Jamf Self Service</display_name>
+    <bundle_id>com.jamfsoftware.selfservice</bundle_id>
+    <version>10.8.0</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>89</id>
+    <name>Keynote</name>
+    <display_name>Keynote</display_name>
+    <bundle_id>com.apple.Keynote</bundle_id>
+    <version>5.0.1</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>66</id>
+    <name>Kiosk Pro Lite</name>
+    <display_name>Kiosk Pro Lite</display_name>
+    <bundle_id>com.kioskgroup.kioskproliteapp</bundle_id>
+    <version>9.1.2</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>95</id>
+    <name>LiveCollage Classic -FREE Instant Collage Maker</name>
+    <display_name>LiveCollage Classic -FREE Instant Collage Maker</display_name>
+    <bundle_id>com.click2mobile.photoFrameFREE</bundle_id>
+    <version>3.0.9</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>75</id>
+    <name>Microsoft Excel</name>
+    <display_name>Microsoft Excel</display_name>
+    <bundle_id>com.microsoft.Office.Excel</bundle_id>
+    <version>2.24</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>103</id>
+    <name>Microsoft OneDrive</name>
+    <display_name>Microsoft OneDrive</display_name>
+    <bundle_id>com.microsoft.skydrive</bundle_id>
+    <version>10.61.3</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>80</id>
+    <name>Microsoft OneNote</name>
+    <display_name>Microsoft OneNote</display_name>
+    <bundle_id>com.microsoft.onenote</bundle_id>
+    <version>16.24</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>108</id>
+    <name>Microsoft Outlook</name>
+    <display_name>Microsoft Outlook</display_name>
+    <bundle_id>com.microsoft.Office.Outlook</bundle_id>
+    <version>3.18.0</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>90</id>
+    <name>Microsoft PowerPoint</name>
+    <display_name>Microsoft PowerPoint</display_name>
+    <bundle_id>com.microsoft.Office.Powerpoint</bundle_id>
+    <version>2.24</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>84</id>
+    <name>Microsoft Remote Desktop</name>
+    <display_name>Microsoft Remote Desktop</display_name>
+    <bundle_id>com.microsoft.rdc.ios</bundle_id>
+    <version>8.1.42</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>97</id>
+    <name>Microsoft Teams</name>
+    <display_name>Microsoft Teams</display_name>
+    <bundle_id>com.microsoft.skype.teams</bundle_id>
+    <version>1.0.71</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>63</id>
+    <name>Microsoft Word</name>
+    <display_name>Microsoft Word</display_name>
+    <bundle_id>com.microsoft.Office.Word</bundle_id>
+    <version>2.24</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>60</id>
+    <name>Numbers</name>
+    <display_name>Numbers</display_name>
+    <bundle_id>com.apple.Numbers</bundle_id>
+    <version>5.0.1</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>99</id>
+    <name>Pages</name>
+    <display_name>Pages</display_name>
+    <bundle_id>com.apple.Pages</bundle_id>
+    <version>5.0.1</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>91</id>
+    <name>Pharos Print</name>
+    <display_name>Pharos Print</display_name>
+    <bundle_id>com.pharos.pharosprint</bundle_id>
+    <version>1.7</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>86</id>
+    <name>Photomath</name>
+    <display_name>Photomath</display_name>
+    <bundle_id>com.microblink.PhotoMath</bundle_id>
+    <version>5.3.2</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>61</id>
+    <name>Plantronics Hub™</name>
+    <display_name>Plantronics Hub™</display_name>
+    <bundle_id>com.plantronics.myheadset</bundle_id>
+    <version>3.13</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>111</id>
+    <name>Powtoon Connect</name>
+    <display_name>Powtoon Connect</display_name>
+    <bundle_id>com.powtoon.PowToonConnect</bundle_id>
+    <version>1.1</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>114</id>
+    <name>QR Code Reader ·</name>
+    <display_name>QR Code Reader ·</display_name>
+    <bundle_id>com.pastapizza.qrcode</bundle_id>
+    <version>2.3.1</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>113</id>
+    <name>QR Code Reader for iPhone!</name>
+    <display_name>QR Code Reader for iPhone!</display_name>
+    <bundle_id>com.mixerbox.QR</bundle_id>
+    <version>0.38</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>73</id>
+    <name>Skype for Business</name>
+    <display_name>Skype for Business</display_name>
+    <bundle_id>com.microsoft.lync2013.iphone</bundle_id>
+    <version>6.24.0</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>76</id>
+    <name>Slack</name>
+    <display_name>Slack</display_name>
+    <bundle_id>com.tinyspeck.chatlyio</bundle_id>
+    <version>19.4.1</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>109</id>
+    <name>Sonocent Link</name>
+    <display_name>Sonocent Link</display_name>
+    <bundle_id>com.sonocent.SonocentRecorder.bundle</bundle_id>
+    <version>1.4.0</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>118</id>
+    <name>Speechify - Text To Speech OCR</name>
+    <display_name>Speechify - Text To Speech OCR</display_name>
+    <bundle_id>com.cliffweitzman.speechifyMobile2</bundle_id>
+    <version>1.9.30</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>82</id>
+    <name>Splashtop Enterprise</name>
+    <display_name>Splashtop Enterprise</display_name>
+    <bundle_id>com.splashtop.business</bundle_id>
+    <version>2.3.19.1</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>105</id>
+    <name>Splashtop Personal for iPhone</name>
+    <display_name>Splashtop Personal for iPhone</display_name>
+    <bundle_id>com.splashtop.splashtop2iphone</bundle_id>
+    <version>2.7.6.4</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>121</id>
+    <name>Survey123 for ArcGIS</name>
+    <display_name>Survey123 for ArcGIS</display_name>
+    <bundle_id>com.esri.survey123</bundle_id>
+    <version>3.3.64</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>92</id>
+    <name>Twitter</name>
+    <display_name>Twitter</display_name>
+    <bundle_id>com.atebits.Tweetie2</bundle_id>
+    <version>7.47</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>115</id>
+    <name>UAA Mobile</name>
+    <display_name>UAA Mobile</display_name>
+    <bundle_id>edu.uaa.alaska.uaamobile</bundle_id>
+    <version>5.0.2</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>116</id>
+    <name>UAA SAFE</name>
+    <display_name>UAA SAFE</display_name>
+    <bundle_id>com.cutcom.apparmor.uaa</bundle_id>
+    <version>1.0</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>104</id>
+    <name>YouTube: Watch, Listen, Stream</name>
+    <display_name>YouTube: Watch, Listen, Stream</display_name>
+    <bundle_id>com.google.ios.youtube</bundle_id>
+    <version>14.12.7</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+  <mobile_device_application>
+    <id>68</id>
+    <name>Zello Walkie Talkie</name>
+    <display_name>Zello Walkie Talkie</display_name>
+    <bundle_id>com.zello.client.main</bundle_id>
+    <version>4.50</version>
+    <internal_app>true</internal_app>
+  </mobile_device_application>
+</mobile_device_applications>
+JSON Response Body

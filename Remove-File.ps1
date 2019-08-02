@@ -1,0 +1,1 @@
+﻿Remove-Item 'C:\Program Files (x86)\Blackboard\Blackboard Collaborate Launcher\BBCollabLauncher-UninstallLocal.vbs'

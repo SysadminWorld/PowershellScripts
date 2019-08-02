@@ -1,0 +1,4 @@
+﻿
+Get-WmiObject -Class Win32_PageFileUsage | Select @{Name="SYSManaged";Expression={ $_.AutomaticManagedPagefile }}, @{Name="CurrentUsage";Expression={ $_.CurrentUsage }}, @{Name="TempPageFile";Expression={ $_.TempPageFile }}, @{Name="File";Expression={ $_.Name }}, @{Name="Base Size(MB)"; Expression={$_.AllocatedBaseSize}}, @{Name="Peak Size(MB)"; Expression={$_.PeakUsage}}, @{Name="Install Date";Expression={ $_.ConvertToDateTime( $_.InstallDate) }}
+
+Get-WmiObject -Class Win32_OperatingSystem | Select-Object Name, TotalVisibleMemorySize, FreePhysicalMemory,@{Name="OSInstallDate";Expression={ $_.ConvertToDateTime( $_.InstallDate) }} 

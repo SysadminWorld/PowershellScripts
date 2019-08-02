@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd">
+<html>
+<head>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+<title>Exported from Notepad++</title>
+<style type="text/css">
+span {
+	font-family: 'Courier New';
+	font-size: 10pt;
+	color: #000000;
+}
+.sc0 {
+}
+</style>
+</head>
+<body>
+<div style="float: left; white-space: pre; line-height: 1; background: #FFFFFF; "><span class="sc0"># Stores the full path to the parent directory of this powershell script
+$ScriptPathParent = split-path -parent $MyInvocation.MyCommand.Definition
+
+#Install Carlson 2019
+&amp; $ScriptPathParent\'Carlson2019_64bit.exe' /s /f1'"'$ScriptPathParent\carlson.iss'"' /f2'"'c:\windows\temp\Carlson.log'"' | Out-Null
+
+#Set the Environment Variable for the license server
+[Environment]::SetEnvironmentVariable("LSFORCEHOST", "anc-licensing05.ua.ad.alaska.edu", "Machine")
+</span></div></body>
+</html>
